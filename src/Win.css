@@ -1,0 +1,10 @@
+.win {
+    width: 100vw;
+    height: 100vh;
+    /* z-index: 1000; */
+    position: absolute;
+    background: url(/src/assets/win.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

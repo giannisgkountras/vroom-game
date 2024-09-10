@@ -1,0 +1,45 @@
+.modal {
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.74);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-body {
+    width: 80rem;
+    height: 40rem;
+    border-radius: 30px;
+    background-color: rgb(39, 38, 41);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.answer-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two equal-width columns */
+    grid-template-rows: repeat(2, 1fr); /* Two equal-height rows */
+    gap: 10px; /* Optional: adds space between grid items */
+}
+
+.grid-item {
+    background-color: rgb(118, 50, 245);
+    padding: 2rem;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 24px;
+    transition: all 0.3s;
+}
+
+.grid-item:hover {
+    background-color: rgb(148, 94, 248);
+}
+
+.message-ans {
+    margin-top: 2rem;
+    font-size: 36px;
+}
